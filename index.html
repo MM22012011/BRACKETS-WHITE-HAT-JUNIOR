@@ -1,72 +1,47 @@
 <html>
+    <head>
+        <title>N.O.C.S</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
 
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>My Favourite</title>
-</head>
+            <h2 id="title.nocs">List of the students in my class</h2>
+            <div>
 
-<body>
-    <ul class="menu">
-        <li class="links"><a href="#ABOUT">ABOUT</a>
-        </li>
-        <li class="links"><a href="#MY HOBBY">MY HOBBY</a>
-        </li>
-        <li class="links"><a href="#INSPIRATION">INSPIRATION</a>
-        </li>
-        <li class="links"><a href="#MY FAVOURITE">MY FAVOURITE</a>
-        </li>
-        <li class="links"><a href="#CONTACT">CONTACT</a>
-        </li>
-    </ul>
-    <section id="welcome" class="about">
-        <div class="line">
-            <img src="IMG_1746.jpg" class="profile">
-            <h1> I am
+                <span>1</span>
+                <input type="text" placeholder="Name Of The Student" id="N_1"> 
                 <br>
-                <span id="name">
-                    Moksh Meena
-                </span>
-            </h1>
-            <p>I am a sportsman and a coder.
-            </p>
-        </div>
-    </section>
-    <section class="my hobby">
-        <div class="line">
-            <h1>MY HOBBY</h1>
-            <img class="images" src="gaming.jpg">
-            <br>
-            <br>
-            <img class="images" src="videos.png">
-            <p>My hobby is to do gaming and make videos I am not making videos now but will start making them soon.</p>
-        </div>
-    </section>
-    <section class="INSPIRATION">
-        <span>
-            <img class="images" src="UJJWAL.jpg">
-            <br>
-            <img class="images" src="TECHNO%20LOGO.jpg">
-        </span>
-        <p>My inspiration is TECHNO GAMERZ or you can say UJJWAL CHAURASIA I love his videos the first time I saw his video I was thinking to make a youtube channel he has over 17 million subscribers.
-        </p>
-    </section>
-    <section>
-        <span>
-            <img class="images" src="gta%20v.jpg">
-            <img class="images" src="cyber%20punk.jpg">
-            <img class="images" src="minecraft.jpg">
-            <img class="images" src="phasmo%20phobia.jpg">
-            <img class="images" src="pubg.jpg">
-        </span>
-        <p>I like to play GRAND THEFT AUTO 5, PUBG, MINECRAFT, CYBER PUNK 2077, PHASMOPHOBIA AND OTHER HORROR AND FIGHTING GAME.</p>
-    </section>
-    <section class="CONTACT">
-        <H2>GMAIL-meenamoksh22@gmail.com/mokshmeena165@gmail.com
-        </H2>
-    </section>
-</body>
 
+                <span>2</span>
+                <input type="text" placeholder="Name Of The Student" id="N_2"> 
+                <br>
+
+                <span>3</span>
+                <input type="text" placeholder="Name Of The Student" id="N_3"> 
+                <br>
+
+                <span>4</span>
+                <input type="text" placeholder="Name Of The Student" id="N_4"> 
+                <br>
+
+            </div>
+
+            <button onclick="submit()" id="submit_button">
+                Submit
+            </button>
+
+
+            <button onclick="sorter()" id="sort_button">
+                Sort
+            </button>
+
+            <div id="result" style="font-weight: bold;"> 
+            
+            </div>
+
+             </center>
+
+    </body>
 </html>

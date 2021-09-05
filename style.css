@@ -1,38 +1,5 @@
-body {
-    margin: 0;
-    padding-top: 800px;
-    text-align: center;
-}
+#submit_button { margin-top: 20px; margin-bottom: 20px; } 
 
-.menu {
-    position: fixed;
-    background: white;
-    width: 100%;
-    margin-top: 0px;
-    top: 0px;
-    z-index: 10;
-}
+#sort_button { display: none; margin-top: 20px; margin-bottom: 20px; } 
 
-.links {
-    float: left;
-    color: #fff;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: Odibee Sans;
-    font-size: 20px
-}
-
-.links:hover {
-    background-color: chartreuse;
-}
-
-
-html {
-    scroll-behavior: smooth;
-}
-.profile{
-width: 1000px;
-height: 1000px;
-}
+input { margin: 10px; }
